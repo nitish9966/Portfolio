@@ -1,5 +1,4 @@
 // src/components/Home.jsx
-import React from 'react';
 import { NAME, TITLE } from "../constants";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import AnimatedShinyText from "./magicui/animated-shiny-text";
@@ -11,7 +10,7 @@ const Home = () => {
     <>
       <section id="home" className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <AnimatedShinyText className="transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
+          <AnimatedShinyText className="transition ease-out hover:text-neutral-300 hover:duration-100 hover:dark:text-zinc-100">
             <h2 className="text-6xl font-bold mb-4">{NAME}✨</h2>
           </AnimatedShinyText>
 
@@ -24,10 +23,10 @@ const Home = () => {
             </span>
           </p>
 
-          <p className="text-lg text-gray-700">SCROLL DOWN TO FIND ME 😉</p>
+          <p className="text-lg text-gray-500">SCROLL DOWN TO FIND ME 😉</p>
 
           <a
-  href="https://drive.google.com/file/d/1-qnFDn5DAxzwgRcETo_lWOuxmf-DrDGy/view?usp=sharing"
+  href="https://drive.google.com/file/d/1jQsFXdTaDNwJPNrYcVXS74IY-guD7KZY/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className='items-center justify-center flex pt-5'

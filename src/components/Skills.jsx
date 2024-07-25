@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -24,11 +23,11 @@ import Marquee from './magicui/marquee';
 const Skills = () => {
   return (
     <section id="skills" className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h2 className="text-3xl font-bold mb-8">Skills</h2>
+      <div className="text-center px-4 w-full max-w-6xl">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-white">Skills</h2>
         <div className="flex flex-col space-y-6">
-          <Marquee pauseOnHover speed={50} gradient={false} className="rounded-2xl border-4 border-neutral-800 m-6 p-6 justify-center bg-gradient-to-r from-black to-black via-zinc-800 via-neutral-800 via-slate-800 via-gray-800">
-            <div className="flex flex-row text-7xl space-x-6">
+          <Marquee pauseOnHover speed={50} gradient={false} className="rounded-2xl border-4 border-neutral-800 mx-6 my-4 p-6 bg-gradient-to-r from-black to-black via-zinc-800 via-neutral-800 via-slate-800 via-gray-800">
+            <div className="flex flex-row text-5xl sm:text-6xl md:text-7xl space-x-6">
               <SiMongodb className="text-[#4DB33D]" />
               <SiExpress className="text-gray-400" />
               <FaReact className="text-[#61DAFB]" />
@@ -41,8 +40,8 @@ const Skills = () => {
               <FaAws className="text-[#FF9900]" />
             </div>
           </Marquee>
-          <Marquee pauseOnHover speed={50} gradient={false} className="rounded-2xl border-4 border-neutral-800 m-6 p-6 justify-center bg-gradient-to-r from-black to-black via-zinc-800 via-neutral-800 via-slate-800 via-gray-800">
-            <div className="text-7xl flex flex-row space-x-6">
+          <Marquee pauseOnHover speed={50} gradient={false} className="rounded-2xl border-4 border-neutral-800 mx-6 my-4 p-6 bg-gradient-to-r from-black to-black via-zinc-800 via-neutral-800 via-slate-800 via-gray-800">
+            <div className="flex flex-row text-5xl sm:text-6xl md:text-7xl space-x-6">
               <FaHtml5 className="text-[#E34F26]" />
               <FaCss3Alt className="text-[#1572B6]" />
               <IoLogoJavascript className="text-[#F7DF1E]" />

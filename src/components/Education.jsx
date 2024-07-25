@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <section id="education" className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8">Education</h2>
+        <h2 className="text-4xl font-bold text-center mb-8 text-white">Education</h2>
         <TracingBeam className="px-6">
           <div className="relative">
             {EDUCATION.map((edu, index) => (
@@ -15,7 +15,7 @@ const Education = () => {
                 className="flex mb-12 animate-fadeInRight"
               >
                 <div className="w-1/4 pr-8 text-right">
-                  <div className="text-lg font-semibold">{edu.start_date} - {edu.end_date}</div>
+                  <div className="text-lg font-semibold text-white">{edu.start_date ? `${edu.start_date} - ${edu.end_date}` : `${edu.end_date}`}</div>
                 </div>
                 <div className="relative w-3/4 pl-8 border-l-2 border-gray-300">
                   <div className="absolute top-0 left-0 w-[25px] h-5 text-2xl text-green-600 transform -translate-x-1/2 -translate-y-1/2">

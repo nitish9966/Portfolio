@@ -17,13 +17,13 @@ const Contact = () => {
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center">
       <div className="text-center">
-        <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
+        <h2 className="text-3xl font-bold mb-4 text-white">Contact Me</h2>
         <div className="pt-8 flex flex-col items-center font-bold space-y-4">
-    <a className="text-lg text-gray-700 flex items-center">
+    <a className="text-lg text-gray-400 flex items-center">
         <FaPhoneAlt className="text-xl text-green-600 mr-2" />
         {CONTACT.phone_no}
     </a>
-    <a href={`mailto:${CONTACT.email}`} className="text-lg text-gray-700 flex items-center pt-4">
+    <a href={`mailto:${CONTACT.email}`} className="text-lg text-gray-400 flex items-center pt-4">
         <MdEmail className="mr-4 text-2xl text-sky-400" />
         {CONTACT.email}
     </a>
@@ -45,7 +45,7 @@ const Contact = () => {
         </a>
     </div>
     <a
-  href="https://drive.google.com/file/d/1-qnFDn5DAxzwgRcETo_lWOuxmf-DrDGy/view?usp=sharing"
+  href="https://drive.google.com/file/d/1jQsFXdTaDNwJPNrYcVXS74IY-guD7KZY/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className='items-center justify-center flex pt-5'
