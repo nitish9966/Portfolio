@@ -47,6 +47,7 @@ export const PROJECTS = [
       "/project-1/Mdashboard.png",
       "/project-1/Udashboard.png",
     ],
+    github:"https://github.com/nitish9966/Project-Management-System",
     description:
       "Improved project delivery efficiency, leading to increased client satisfaction. Enhanced team communication and coordination, reducing project delays.",
     technologies: ["Node JS", "Express JS", "PostgreSQL", "HTML", "CSS", "JavaScript"],
@@ -61,6 +62,7 @@ export const PROJECTS = [
       "/project-2/res1.png",
       "/project-2/res2.png",
     ],
+    github:"https://github.com/nitish9966/New_Country_Details",
     description:
       "Developed a user-friendly app to efficiently retrieve detailed information about countries, including demographics, geography, and basic country facts.",
     technologies: ["Node JS", "Express JS", "Firebase", "RESTful API", "HTML", "CSS", "JavaScript"],
@@ -75,6 +77,7 @@ export const PROJECTS = [
       "/project-3/chat4.png",
       "/project-3/chat5.png",
     ],
+    github:"https://github.com/nitish9966/Chat-App",
     description:
       "Developed a real-time chat application with user authentication, allowing users to send and receive messages instantly.",
     technologies: ["React JS (Vite)", "Node JS", "Express JS", "Zustand", "Firebase", "CSS"],

@@ -1,6 +1,8 @@
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { PROJECTS } from "../constants";
+import { IoLogoGithub } from 'react-icons/io';
+
 
 const Projects = () => {
   return (
@@ -23,6 +25,9 @@ const Projects = () => {
             <div className="hidden md:block w-0.5 bg-gray-400 h-24 mx-4"></div>
             <div className="w-full md:w-1/2 text-center md:text-left px-4 md:px-0">
               <h3 className="text-2xl md:text-3xl font-semibold mb-2 text-zinc-300">{project.title}</h3>
+              <a href={project.github} className="text-2xl text-white" aria-label="GitHub">
+            <IoLogoGithub />
+        </a>
               <p className="text-neutral-400 mb-4">{project.description}</p>
               <div className="flex flex-wrap justify-center md:justify-start gap-2">
                 {project.technologies.map((tech, techIndex) => (
