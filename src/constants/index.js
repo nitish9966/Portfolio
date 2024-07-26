@@ -91,6 +91,6 @@ export const CONTACT = {
   linkedin:"https://www.linkedin.com/in/nitish-bolla/",
   github:"https://github.com/nitish9966",
   youtube:"https://www.youtube.com/@BOLLANITISHBABU",
-  instagram:"https://www.instagram.com/dear_nitish/",
+  instagram:"https://www.instagram.com/_dear_nitish_/",
   twitter:"https://x.com/NitishBolla"
 };
