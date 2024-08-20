@@ -3,12 +3,15 @@ import { NAME, TITLE } from "../constants";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import AnimatedShinyText from "./magicui/animated-shiny-text";
 import { FiDownload } from "react-icons/fi";
-import ShinyButton from './magicui/shiny-button';
+import ShinyButton from "./magicui/shiny-button";
 
 const Home = () => {
   return (
     <>
-      <section id="home" className="min-h-screen flex items-center justify-center">
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center"
+      >
         <div className="text-center">
           <AnimatedShinyText className="transition ease-out hover:text-neutral-300 hover:duration-100 hover:dark:text-zinc-100">
             <h2 className="text-6xl font-bold mb-4">{NAME}✨</h2>
@@ -26,17 +29,13 @@ const Home = () => {
           <p className="text-lg text-gray-500">SCROLL DOWN TO FIND ME 😉</p>
 
           <a
-  href="https://drive.google.com/file/d/1jQsFXdTaDNwJPNrYcVXS74IY-guD7KZY/view?usp=sharing"
-  target="_blank"
-  rel="noopener noreferrer"
-  className='items-center justify-center flex pt-5'
->
-  <ShinyButton
-    text="Download Resume"
-    icon={<FiDownload />}
-  />
-</a>
-
+            href="https://drive.google.com/file/d/1-qnFDn5DAxzwgRcETo_lWOuxmf-DrDGy/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="items-center justify-center flex pt-5"
+          >
+            <ShinyButton text="Download Resume" icon={<FiDownload />} />
+          </a>
         </div>
       </section>
     </>
