@@ -70,7 +70,7 @@ const Contact = () => {
             </a>
           </div>
           <a
-            href="https://drive.google.com/file/d/1-qnFDn5DAxzwgRcETo_lWOuxmf-DrDGy/view?usp=sharing"
+            href="https://drive.google.com/file/d/1aotDIzgMawlFKbxsfdqbRMutt2fNN2vW/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="items-center justify-center flex pt-5"
